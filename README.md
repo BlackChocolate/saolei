@@ -1,4 +1,4 @@
-# saolei
+# minefinder
 ### 大一暑假做的小东西，手机端的扫雷
  - 主要用到了GridView，以及BaseAdapter
  - 原来用的适配器是simpleAdapter，但是后来发现simpleAdapter只能支持静态数据

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_horizontal">
+
+    <GridView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/grid01"
+    android:horizontalSpacing="0pt"
+    android:verticalSpacing="1pt"
+    android:numColumns="5"
+    android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:text="当前得分：0"
+        android:layout_marginTop="80dp"/>
+</LinearLayout>

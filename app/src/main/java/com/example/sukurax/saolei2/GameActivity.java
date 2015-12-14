@@ -97,6 +97,7 @@ public class GameActivity extends Activity {
                         case 0:
                             imagesIds[position]=R.drawable.image0;
                             gridViewAdapter.notifyDataSetChanged();
+                            break;
                         case 1:
                             imagesIds[position]=R.drawable.image1;
                             gridViewAdapter.notifyDataSetChanged();
@@ -128,6 +129,9 @@ public class GameActivity extends Activity {
                         case 8:
                             imagesIds[position]=R.drawable.image8;
                             gridViewAdapter.notifyDataSetChanged();
+                            break;
+                        default:
+                            Toast.makeText(GameActivity.this,"雷数计算错误！", Toast.LENGTH_SHORT).show();
                             break;
                    }
                     if(list.contains(position))
